@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+}
+p{
+    color: blue;
+    font-size: 30px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.boxtwo{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.boxthree{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.boxfour{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 233, 14);
+}
+.boxfive{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(198, 204, 151);
+}
+.boxsix{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 14, 215);
+}
+.boxseven{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 233, 233);
+}
+.boxeight{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 14, 14);
+}
+.boxnine{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 14, 233);
+}
+.boxten{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 233, 14);
+}
+.boxeleven{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 14, 233);
+}
+.boxtwelve{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 233, 14);
+}
+.boxthirteen{
+    padding:100px 0;
+    width: 300px;
+    background-color: rgb(14, 14, 14);
+    margin: 0 auto;
+    text-align: center;
+}
+.masterbox{
+    display: flex;
+}
+.masterboxtwo{
+    display: flex;
+    justify-content: space-between;
+}
+.masterboxthree{
+    display: flex;
+    justify-content: space-around;
+}
+.masterboxfour{
+    display: flex;
+    justify-content: end;
+}
+.masterboxfive{
+    display: flex;
+    justify-content: start;
+}
+.masterboxsix{
+    display: flex;
+    justify-content: center;
+}
+.masterboxseven{
+    padding: 20px;
+    color: white;
+}
